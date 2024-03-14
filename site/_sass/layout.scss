@@ -12,7 +12,6 @@
 .site-footer {
   border-top: var(--default-border-size) solid var(--default-border-color);
   padding-top: 1rem;
-  text-align: center;
 }
 
 .site-wrapper {
@@ -116,16 +115,40 @@
   }
 }
 
-.social-links span {
-  font-size: 0.75rem;
-  margin-left: var(--default-border-size-bold);
+.social-links-list {
+
+  list-style: none;
+  padding-left: 0;
+  display: table;
+
+  svg {
+    width: 1.5rem;
+    height: 1.5rem;
+    fill: var(--default-quote-color);
+    vertical-align: middle;
+  }
+
+  span {
+    font-size: 0.75rem;
+    margin-left: var(--default-border-size-bold);
+    color: var(--default-quote-color);
+  }
 }
 
-.social-links svg {
-  width: 1.5rem;
-  height: 1.5rem;
-  fill: var(--default-quote-color);
-  vertical-align: middle;
+.site-footer .social-links-list {
+
+  margin-left: auto;
+  margin-right: auto;
+
+  li {
+    float: left;
+  }
+  svg {
+    margin-right: var(--default-border-size-bold);
+  }
+  span {
+    display: none;
+  }
 }
 
 h1:has(+blockquote) {
