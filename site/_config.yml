@@ -16,9 +16,9 @@ plugins:
 # Generate social links in footer.
 
 social_links:
-  - { platform: linkedin,       user_url: "https://www.linkedin.com/in/jekyll" }
-  - { platform: github,         user_url: "https://github.com/jekyll/minima" }
-  - { platform: twitter,        user_url: "https://twitter.com/jekyllrb" }
+  - { platform: linkedin, title: LinkedIn, link: "https://www.linkedin.com/in/cristiansulea" }
+  - { platform: github,   title: GitHub,   link: "https://github.com/cristian-sulea" }
+  - { platform: twitter,  title: Twitter,  link: "https://twitter.com/cristian_sulea" }
 
 # The following are not implemented yet.
 #  - { platform: devto,          user_url: "https://dev.to/jekyll" }
