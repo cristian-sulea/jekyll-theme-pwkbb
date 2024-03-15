@@ -14,7 +14,7 @@
 
   --default-text-color: #000;
   --default-text-background-color: #FFF7E8;
-  --default-link-color: var(--default-text-color);
+  --default-link-color: var(--default-quote-color);
   --default-link-color-hover: var(--default-link-color);
   --default-link-color-visited: var(--default-link-color);
   --default-code-color: #000;
@@ -92,10 +92,6 @@ ol ul,
 ul ol {
   padding-left: 1rem;
   margin-bottom: 0;
-}
-
-a:hover {
-  text-decoration: underline;
 }
 
 a {

@@ -36,7 +36,7 @@
 
 .site-nav {
   position: absolute;
-  font-size: 0.875rem;
+  /*font-size: 0.875rem;*/
   top: calc(var(--site-title-text-size) - 0.875rem + var(--default-border-size-bold) + var(--default-border-size) + 0px);
   right: 0.5rem;
   background-color: var(--default-text-background-color);
@@ -106,7 +106,7 @@
       display: inline;
 
       &:not(:last-child) {
-        margin-right: 0.4rem;
+        margin-right: 1rem;
       }
       margin-left: auto;
       margin-right: 0;
@@ -131,7 +131,6 @@
   span {
     font-size: 0.75rem;
     margin-left: var(--default-border-size-bold);
-    color: var(--default-quote-color);
   }
 }
 
